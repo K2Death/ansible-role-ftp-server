@@ -1,0 +1,18 @@
+---
+# Default variables
+
+# Standalone setting
+listen: YES 
+
+# ipv6 settings
+listen_ipv6: YES
+
+# FTPS settings
+rsa_cert_file: /etc/ssl/certs/ssl-cert-snakeoil.pem
+rsa_private_key_file: /etc/ssl/private/ssl-cert-snakeoil.key
+ssl_enable: NO
+
+# Passive mode settings
+pasv_enable: YES
+pasv_max_port: 40000
+pasv_min_port: 65535
